@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#DAD8D8"
+    tools:context=".TasksFragment">
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="- List your tasks to do it later"
+        android:textColor="#FF0033"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="20dp"
+        android:text="- Start and list your tasks and save it  "
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="20dp"
+        android:text="- Click start and make your life better "
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Start"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</LinearLayout>

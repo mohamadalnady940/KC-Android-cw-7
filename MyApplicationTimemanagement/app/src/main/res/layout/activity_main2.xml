@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Put your tasks"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/edttask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:hint="Enter your tasks"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edttask"
+        android:hint="Enter the time you think you will take"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtdisc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edttime"
+        android:hint="Enter the discription"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+<Button
+    android:id="@+id/btninsert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/edtdisc"
+    android:layout_marginTop="20dp"
+    android:text="Insert data"/>
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btninsert"
+        android:layout_marginTop="20dp"
+        android:text="Insert data"/>
+
+</RelativeLayout>
